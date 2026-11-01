@@ -1,0 +1,17 @@
+# Yerel kullanıcı verisi (veritabanı, şifreleme anahtarı, ajan dosyaları) — asla yüklenmez
+data/
+*.db
+*.key
+
+# Ortamlar ve bağımlılıklar
+backend/.venv/
+.venv/
+frontend/node_modules/
+__pycache__/
+*.pyc
+
+# Yerel araç ayarları
+.claude/
+.env
+
+*.tsbuildinfo
